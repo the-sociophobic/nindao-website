@@ -1,0 +1,63 @@
+@import '~bootstrap/scss/bootstrap.scss'
+@import './vars.sass'
+@import './fonts.sass'
+
+
+.Button
+  @extend .p
+  @extend .p--xxl
+  font-family: 'Encode Sans', sans-serif
+  font-weight: 600
+  padding: 8px 0
+  width: 100%
+  display: block
+  text-align: center
+  cursor: pointer
+  text-decoration: none
+  &--primary
+    color: $green
+    background-color: $black
+    border: 1px solid $green
+    border-radius: 2px
+    &:hover
+      color: $green
+
+
+.App
+  width: 100%
+  height: 100%
+  position: relative
+
+  .Background,
+  .Viewer,
+  .Page
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+  .Background
+    background-image: url(./img/background.jpg)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center
+
+  .Page
+    @extend .d-flex
+    @extend .flex-column
+    .Header
+      width: 100%
+      height: 50px
+      @extend .d-flex
+      @extend .flex-row
+      margin-top: 30px
+      .Logo
+        height: 100%
+        width: auto
+
+
+.mb-20
+  margin-bottom: 20px
+
+.mb-32
+  margin-bottom: 32px
