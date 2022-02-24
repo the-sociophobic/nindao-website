@@ -32,10 +32,10 @@ class Arc extends Unit {
 
         if (document.body.clientWidth > document.body.clientHeight) {
           this.model.scale.set(25.5, 25.5, 25.5)
-          this.model.position.set(-30, 10, 0)
+          this.model.position.set(-30, 0, 0)
         } else {
           this.model.scale.set(18.5, 18.5, 18.5)
-          this.model.position.set(-12, 0, 0)
+          this.model.position.set(-2, 0, 0)
         }
       }
 

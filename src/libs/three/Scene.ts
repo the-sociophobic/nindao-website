@@ -57,16 +57,16 @@ export default class Scene extends TransitionsHandler {
 
     //ADD CAMERA
     this.scene.camera = new THREE.PerspectiveCamera(
-      75,
+      50,
       W / H,
       0.1,
       1000
     )
     this.scene.controls = new OrbitControls(this.scene.camera, this.scene.renderer.domElement)
     this.scene.controls.enabled = false
-    this.scene.camera.position.x = -targetToCamera / 1.5
-    this.scene.camera.position.y = targetToCamera
-    this.scene.camera.position.z = targetToCamera
+    this.scene.camera.position.x = -targetToCamera * 2
+    this.scene.camera.position.y = 0
+    this.scene.camera.position.z = targetToCamera * 2.05
     // this.scene.camera.position.y = Math.PI / 4
 
     this.scene.controls.update()

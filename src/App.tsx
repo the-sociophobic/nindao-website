@@ -2,26 +2,30 @@ import React from 'react'
 import Div100vh from 'react-div-100vh'
 
 import Header from './components/Header'
-import Content from './components/Content'
-import Background from './components/Background'
+import Title from './pages/Title'
+import WeWorkOn from './pages/WeWorkOn'
+import Hub from './pages/Hub'
+import WeLove from './pages/WeLove'
+import Distributed from './pages/Distributed'
+import HighQuality from './pages/HighQuality'
 
 import './styles/index.sass'
 
 
-function App() {
-  return (
-    <Div100vh>
-      <div className="App">
-        <Background />
-
-        <div className='Page'>
-          <Header />
-          <Content />
-        </div>
+const App = () =>
+  <Div100vh>
+    <div className="App">
+      <Header />
+      <div className='Content'>
+        <Title />
+        <WeWorkOn />
+        <Hub />
+        <WeLove />
+        <Distributed />
+        <HighQuality />
       </div>
-    </Div100vh >
-  )
-}
+    </div>
+  </Div100vh >
 
 
 export default App
