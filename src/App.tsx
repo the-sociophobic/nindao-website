@@ -18,11 +18,11 @@ const App = () =>
       <Header />
       <div className='Content'>
         <Title />
-        <WeWorkOn />
+        {/* <WeWorkOn />
         <Hub />
         <WeLove />
         <Distributed />
-        <HighQuality />
+        <HighQuality /> */}
       </div>
     </div>
   </Div100vh >
