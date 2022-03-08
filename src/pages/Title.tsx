@@ -18,11 +18,11 @@ const Title: React.FC<TitlePropsType> = () =>
     <div className='row'>
       <div className='col-10 col-md-10 col-xl-6 mx-auto'>
         <h1 className='h1 h1--xl text-lg-center w-100 text-white mb-20'>
-          Emerging organisational systems of the future
+          The Future is now, and we are building it.
         </h1>
 
         <p className='p p--xxl text-white text-lg-center mb-32'>
-          Daoism Systems is the blockchain R&D company focusing on avant-gardе on-chain applications.
+          We believe in censorship resistant, borderless and voluntary organizations, and found our passion in emerging organizational systems of the future. We therefore founded Daoism Systems - a highly experienced blockchain research and development company, focusing on avant-gardе, on-chain applications.
         </p>
 
         <ExternalLink

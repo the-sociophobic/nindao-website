@@ -15,7 +15,7 @@ const WeWorkOn: React.FC<WeWorkOnPropsType> = () =>
   >
     <div className='row'>
       <div className='col-10 col-md-10 col-xl-6 mx-auto'>
-        <h1 className='h1 text-lg-center w-100 text-white mb-20'>
+        <h1 className='h1 h1--xl text-lg-center w-100 text-white mb-20'>
           We work on:
         </h1>
 

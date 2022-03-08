@@ -15,14 +15,14 @@ const Distributed: React.FC<DistributedPropsType> = () =>
   >
     <div className='row'>
       <div className='col-10 col-md-10 col-xl-6 mx-auto'>
-        <h1 className='h1 text-lg-center w-100 text-white mb-20'>
+        <h1 className='h1 h1--xl text-lg-center w-100 text-white mb-20'>
           Distributed systems design
         </h1>
         <p className='p p--xxl text-white text-lg-center mb-32'>
           Architect your systems so they can scale safely.
         </p>
         
-        <h1 className='h1 text-lg-center w-100 text-white mb-20'>
+        <h1 className='h1 h1--xl text-lg-center w-100 text-white mb-20'>
           Distributed systems design
         </h1>
         <p className='p p--xxl text-white text-lg-center mb-32'>

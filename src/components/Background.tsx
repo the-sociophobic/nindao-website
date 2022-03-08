@@ -5,13 +5,19 @@ import Arc from '../libs/three/units/Arc'
 import Lights from '../libs/three/units/Lights'
 import Environment from '../libs/three/units/Environment'
 
+import logo from '../styles/img/logo_distorted.png'
+
 
 export type BackgroundPropsType = {}
 
 
 const Background: React.FC<BackgroundPropsType> = () =>
   <div className='Background'>
-    <ThreeScene
+    <img
+      src={logo}
+      className='Background__logo'
+    />
+    {/* <ThreeScene
       id="3d-scene"
       units={{
         arc: {
@@ -27,7 +33,7 @@ const Background: React.FC<BackgroundPropsType> = () =>
           disabled: false,
         },
       }}
-    />
+    /> */}
   </div>
 
 
