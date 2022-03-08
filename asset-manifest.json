@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6695a078.css",
-    "main.js": "/static/js/main.2d51d559.js",
-    "static/media/logo.svg": "/static/media/logo.ed67ae754899e4cfd76758b55177fbdc.svg",
-    "static/media/logo_distorted.png": "/static/media/logo_distorted.445c9d0e9498dcfb4d21.png",
-    "static/media/Base.jpg": "/static/media/Base.af3d0fac83ac815b5a7a.jpg",
-    "static/media/Android.jpg": "/static/media/Android.88b956f3e77801bab07d.jpg",
-    "static/media/Title.jpg": "/static/media/Title.fb2b2e51b62f4548c2a5.jpg",
-    "static/media/Ladders.jpg": "/static/media/Ladders.d7106af2b426825758c5.jpg",
-    "static/media/Ship.jpg": "/static/media/Ship.45c5144d6d289e040606.jpg",
-    "static/media/UFOs.jpg": "/static/media/UFOs.748175703abec666e0e2.jpg",
-    "index.html": "/index.html",
-    "main.6695a078.css.map": "/static/css/main.6695a078.css.map",
-    "main.2d51d559.js.map": "/static/js/main.2d51d559.js.map"
+    "main.css": "/nindao-website/static/css/main.6695a078.css",
+    "main.js": "/nindao-website/static/js/main.621be059.js",
+    "static/media/logo.svg": "/nindao-website/static/media/logo.ed67ae754899e4cfd76758b55177fbdc.svg",
+    "static/media/logo_distorted.png": "/nindao-website/static/media/logo_distorted.445c9d0e9498dcfb4d21.png",
+    "static/media/Base.jpg": "/nindao-website/static/media/Base.af3d0fac83ac815b5a7a.jpg",
+    "static/media/Android.jpg": "/nindao-website/static/media/Android.88b956f3e77801bab07d.jpg",
+    "static/media/Title.jpg": "/nindao-website/static/media/Title.fb2b2e51b62f4548c2a5.jpg",
+    "static/media/Ladders.jpg": "/nindao-website/static/media/Ladders.d7106af2b426825758c5.jpg",
+    "static/media/Ship.jpg": "/nindao-website/static/media/Ship.45c5144d6d289e040606.jpg",
+    "static/media/UFOs.jpg": "/nindao-website/static/media/UFOs.748175703abec666e0e2.jpg",
+    "index.html": "/nindao-website/index.html",
+    "main.6695a078.css.map": "/nindao-website/static/css/main.6695a078.css.map",
+    "main.621be059.js.map": "/nindao-website/static/js/main.621be059.js.map"
   },
   "entrypoints": [
     "static/css/main.6695a078.css",
-    "static/js/main.2d51d559.js"
+    "static/js/main.621be059.js"
   ]
 }
